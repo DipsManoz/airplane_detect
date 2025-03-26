@@ -5,7 +5,7 @@ from ultralytics import YOLO
 import numpy as np
 
 # Load YOLOv8 model
-model = YOLO(best_new.pt)
+model = YOLO("best_new.pt")
 
 # Function to detect aircraft in video
 def detect_aircrafts(video_path):
